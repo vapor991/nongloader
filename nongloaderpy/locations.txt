@@ -1,6 +1,6 @@
 
 
-location of nongloader file|C:\Users\astro\Desktop\nongloader\
+location of nongloader file|C:\Users\astro\Desktop\nongloaderpy\
 location of geometrydash|C:\Users\astro\AppData\Local\GeometryDash\
 
 
