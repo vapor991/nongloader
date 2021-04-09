@@ -18,3 +18,4 @@ NONG (not on newgrounds) song loader for Geometry Dash.
 `nongloader.py`
 * enjoy never having to go through the process of replacing a song ever again c:
 
+## DM me any questions on discord Zen#7599 c:
