@@ -16,7 +16,6 @@ destination = destination[1]
 destination = destination.strip()
 memory = gd.memory.get_memory()
 _, _, filenames = next(walk(source))
-print(filenames)
 
 do_print = True
 songid = 0
@@ -42,10 +41,10 @@ songidfile = f'{songid}.mp3'
 os.rename(songname, songidfile)
 source = source + songidfile
 destination = destination + songidfile
-print('if one of these says false something is wrong with locations.txt')
-print(os.path.exists(destination))
-print(os.path.exists(source))
-os.remove(destination)
+if os.path.exists(source) == False:
+    print('Error with locations.txt!')
+if os.path.exists(destination) == True:
+    os.remove(destination)
 dest = shutil.move(source, destination)
 time.sleep(1)
 print('Song loaded!')
