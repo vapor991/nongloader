@@ -1,0 +1,1 @@
+﻿& c:/Users/astro/nongloader/Scripts/python.exe c:/Users/astro/nongloader/nongloader.py
