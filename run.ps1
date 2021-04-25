@@ -1,1 +1,1 @@
-﻿& c:/Users/astro/nongloader/Scripts/python.exe c:/Users/astro/nongloader/nongloader.py
+& c:\Users\astro\nongloader\\scripts\python.exe c:\Users\astro\nongloader\nongloader.py

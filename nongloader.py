@@ -10,7 +10,11 @@ from converter import extract_audio
 #i cant remember if i need all these but im pretty sure i do
 
 source = __file__.replace('nongloader.py', '')
-destination = source.replace('nongloader\\', 'AppData\\Local\\GeometryDash\\')
+start = 'c:\\Users\\'
+end = '\\'
+user = ((__file__.split(start))[1].split(end)[0])
+destination = f'c:\\users\\{user}\\appdata\\local\\geometrydash\\'
+
 memory = gd.memory.get_memory()
 _, _, filenames = next(walk(source))
 songname = False
