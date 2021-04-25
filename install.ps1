@@ -1,4 +1,4 @@
-﻿python -m venv nongtest
+﻿python -m venv nongloader
 cd nongtest
 cd scripts
 ./activate.ps1
